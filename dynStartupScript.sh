@@ -114,7 +114,7 @@ varRemoteRepository=https://github.com/duality-solutions/Dynamic
 #This can be used to auto heal and update the script system. 
 #If a future deployment breaks something, an update by the repository owner can run a script on your machine. 
 #This is dangerous and not implemented
-varRemoteScriptRepository=https://github.com/LordDarkHelmet/DynamicScripts
+varRemoteScriptRepository=https://github.com/lleellee0/DynamicScripts
 
 #AutoUpdater
 #This runs the auto update script. If you do not want to automatically update the script, then set this to false. If a new update 

@@ -65,11 +65,11 @@ sudo apt-get -y install git | tee -a dynSimpleSetup.log
 echo "- we also use the \"at\" command we should install that too. " | tee -a dynSimpleSetup.log
 sudo apt-get -y install at | tee -a dynSimpleSetup.log
 echo "- Clone the repository" | tee -a dynSimpleSetup.log
-sudo git clone https://github.com/LordDarkHelmet/DynamicScripts | tee -a dynSimpleSetup.log
+sudo git clone https://github.com/lleellee0/DynamicScripts | tee -a dynSimpleSetup.log
 echo "- Navigate to the script" | tee -a dynSimpleSetup.log
 cd DynamicScripts
 echo "- Just in case we previously ran this script, pull the latest from GitHub" | tee -a ../dynSimpleSetup.log
-sudo git pull https://github.com/LordDarkHelmet/DynamicScripts | tee -a ../dynSimpleSetup.log
+sudo git pull https://github.com/lleellee0/DynamicScripts | tee -a ../dynSimpleSetup.log
 echo "" | tee -a dynSimpleSetup.log
 echo "Step 2: Set permissions so that dynStartupScript.sh can run" | tee -a ../dynSimpleSetup.log
 echo "- Change the permissions" | tee -a ../dynSimpleSetup.log
